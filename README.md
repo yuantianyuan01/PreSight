@@ -5,7 +5,7 @@
   
   [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2403.09079)
   
-  <img src="./resources/main_teaser_detail.png" width="950px">
+  <img src="./resources/main_teaser_detail.jpg" width="1050px">
 </div>
 
 ## Introduction
@@ -17,7 +17,7 @@ This repository is an official implementation of **PreSight: Enhancing Autonomou
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article{yuan2021presight,
+@article{yuan2024presight,
   title={PreSight: Enhancing Autonomous Vehicle Perception with City-Scale NeRF Priors},
   author={Yuan, Tianyuan and Mao, Yucheng and Yang, Jiawei and Liu, Yicheng and Wang, Yue and Zhao, Hang},
   journal={arXiv preprint arXiv:2403.09079},
