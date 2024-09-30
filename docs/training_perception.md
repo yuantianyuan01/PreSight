@@ -56,10 +56,10 @@ cd online-mapping
 conda activate streammapnet # remember to switch environments
 
 # model with priors
-bash tools/dist_train.sh ./configs/smn_wcamprior_480_100x50_24e_randomdrop.py 8 # 8-GPU training
+bash tools/dist_train.sh ./plugin/configs/smn_wcamprior_480_100x50_24e_randomdrop.py 8 # 8-GPU training
 
 # model without priors
-bash tools/dist_train.sh ./configs/smn_priorsplit_480_100x50_24e.py 8 # 8-GPU training
+bash tools/dist_train.sh ./plugin/configs/smn_priorsplit_480_100x50_24e.py 8 # 8-GPU training
 ```
 
 b. To test a checkpoint:
@@ -69,10 +69,10 @@ cd online-mapping
 conda activate streammapnet # remember to switch environments
 
 # model with priors
-bash tools/dist_test.sh ./configs/smn_wcamprior_480_100x50_24e_randomdrop.py /path/to/checkpoint 8 # 8-GPU testing
+bash tools/dist_test.sh ./plugin/configs/smn_wcamprior_480_100x50_24e_randomdrop.py /path/to/checkpoint 8 # 8-GPU testing
 
 # model without priors
-bash tools/dist_test.sh ./configs/smn_priorsplit_480_100x50_24e.py /path/to/checkpoint 8 # 8-GPU testing
+bash tools/dist_test.sh ./plugin/configs/smn_priorsplit_480_100x50_24e.py /path/to/checkpoint 8 # 8-GPU testing
 ```
 
 #### Rasterized
