@@ -39,7 +39,7 @@ b. Create annotations for our proposed new data split:
 
 ```
 conda activate bevdet # remember to switch environments
-python tools/create_data_bevdet.py --data-root ./data/nuscenes --extra_tag priorsplit
+python tools/create_data_bevdet.py --data-root ./data/nuscenes --extra-tag priorsplit
 ```
 
 
